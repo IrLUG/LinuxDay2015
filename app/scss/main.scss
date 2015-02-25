@@ -223,6 +223,7 @@ ul.logos {
         display: inline-block;
         vertical-align: middle;
         margin-right: 0.9rem;
+        margin-bottom: 0.9rem;
 
         &:last-child {
             margin: 0;
@@ -243,6 +244,10 @@ ul.logos {
 
     li.openmakers {
         max-width: 15rem;
+    }
+
+    li.techcoffee {
+        max-width: 20rem;
     }
 
     & + h3 {

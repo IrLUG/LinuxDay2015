@@ -606,7 +606,8 @@ ul.logos li {
   max-width: 25%;
   display: inline-block;
   vertical-align: middle;
-  margin-right: 0.9rem; }
+  margin-right: 0.9rem;
+  margin-bottom: 0.9rem; }
   ul.logos li:last-child {
     margin: 0; }
   ul.logos li img {
@@ -618,6 +619,8 @@ ul.logos li.gdg {
   max-width: 40%; }
 ul.logos li.openmakers {
   max-width: 15rem; }
+ul.logos li.techcoffee {
+  max-width: 20rem; }
 ul.logos + h3 {
   margin-top: 5rem; }
 
