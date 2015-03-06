@@ -615,6 +615,10 @@ ul.logos li {
   ul.logos li:hover {
     -webkit-filter: grayscale(0%);
             filter: grayscale(0%); }
+ul.logos li.analistgroup {
+  max-width: 20rem; }
+ul.logos li.fablab {
+  max-width: 14rem; }
 ul.logos li.gdg {
   max-width: 40%; }
 ul.logos li.openmakers {
