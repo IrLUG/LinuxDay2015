@@ -9,8 +9,6 @@ $orange: #F37B21;
 $light-orange: #EEB227;
 $dark-orange: #AF4D04;
 
-
-
 $brown: #AD946E;
 
 $white: #ffffff;
@@ -111,7 +109,7 @@ a.button {
         background-color: $light-blue;
     }
 
-    &.orange {
+    &.orange, &.eventbrite {
         background-color: $orange;
         box-shadow: 0 0.6rem $dark-orange;
 
@@ -263,6 +261,31 @@ ul.logos {
     }
 }
 
+dl {
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+
+    dt {
+        color: $dark-blue;
+    }
+
+    dd {
+        color: $blue;
+        font-size: 1.5rem;
+        margin: 0 0 1rem 0;
+    }
+}
+
+.schedule h2 {
+    background: $orange;
+    color: $white;
+
+    text-transform: uppercase;
+    padding: 0.5rem;
+
+    display: inline;
+}
 
 @media only screen and (max-width: 860px){
     .wrapper {
