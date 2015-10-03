@@ -151,6 +151,10 @@ a.button {
     &.orange {
         background-color: $orange;
     }
+
+    &--margin {
+        margin-bottom: 2rem;
+    }
 }
 
 .socials {
