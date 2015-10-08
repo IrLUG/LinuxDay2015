@@ -240,6 +240,12 @@ ul.logos {
         }
     }
 
+    &.venue {
+        li {
+            min-width: 50%;
+        }
+    }
+
     li.analistgroup {
         max-width: 20rem;
     }

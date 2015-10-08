@@ -653,6 +653,9 @@ ul.logos li {
     -webkit-filter: grayscale(0%);
             filter: grayscale(0%); }
 
+ul.logos.venue li {
+  min-width: 50%; }
+
 ul.logos li.analistgroup {
   max-width: 20rem; }
 
